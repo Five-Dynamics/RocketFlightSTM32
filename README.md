@@ -12,4 +12,10 @@ Request your reviewers
 
 Make changes if needed (changes requested from reviewers)
 
-Once all approved, merge
+Once all approved, merge.
+
+
+As reviewer:
+Go to files changed
+Comment on parts to ask questions ect.
+Top right to approve merge or request changes
