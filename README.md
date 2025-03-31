@@ -19,3 +19,5 @@ As reviewer:
 Go to files changed
 Comment on parts to ask questions ect.
 Top right to approve merge or request changes
+
+## The instructions for setting up the IDE environment is in the README in the flightv1 folder.

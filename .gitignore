@@ -1,52 +1,44 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
+# STM32CubeIDE
+.settings/
+.metadata/
+*.launch
+*.log
+*.bin
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
-
-# Debug files
-*.dSYM/
+*.map
+*.o
+*.out
+*.d
+*.lst
+*.srec
 *.su
-*.idb
-*.pdb
+*.dep
+*.i
+*.asm
+*.gz
+*.pyc
+*.class
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# CubeMX generated folders
+/Debug/
+/Release/
+/build/
+/Core/Inc/stm32*.h  # Auto-generated HAL headers
+Drivers/CMSIS/Device/ST/*/Include/system_*.h
+Drivers/CMSIS/Device/ST/*/Source/Templates/system_*.c
+Drivers/STM32*/STM32*_hal_timebase_tim.c
+
+# Backup and temp files
+*~
+*.bak
+*.tmp
+*.swp
+
+# IDE specific files
+.cproject
+.project
+.ipr
+.iws
+.idea/
+.vscode/
